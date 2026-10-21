@@ -12,7 +12,8 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero.")
     return a / b
 
-
-print(f"Addition: {add(10, 5)}")
-print(f"Subtraction: {subtract(10, 5)}")
-print(f"Multiplication: {multiply(10, 5)}")
+print("Operations using a = 10 and b = 5")
+print(f"Result of Addition: {add(10, 5)}")
+print(f"Result of Subtraction: {subtract(10, 5)}")
+print(f"Result of Multiplication: {multiply(10, 5)}")
+print(f"Result of Division: {divide(10, 5)}")
