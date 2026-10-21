@@ -1,3 +1,6 @@
+
+# Practice program for Git 
+
 def multiply(a, b):
     return a * b
 
