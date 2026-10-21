@@ -8,5 +8,6 @@ def subtract(a, b):
     return a - b
 
 
-print(add(10, 5))
-print(subtract(10, 5))
+print(f"Addition: {add(10, 5)}")
+print(f"Subtraction: {subtract(10, 5)}")
+print(f"Multiplication: {multiply(10, 5)}")
